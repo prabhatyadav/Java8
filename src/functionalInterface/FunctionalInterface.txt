@@ -1,0 +1,5 @@
+ Functional Interface are the Interface which have ONLY ONE Abstract Method.
+ Functional Interface are also Known as Single Abstract Method(SAM).
+ Functional Interface can have any number( 0 - many ) of default and static method.
+ Functional Interface can multiple final variable. 
+ Functional Interface have @FunctionalInterface at the Class/Interface level. 

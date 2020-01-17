@@ -3,9 +3,27 @@
  Functional Interface can have any number( 0 - many ) of default and static method.
  Functional Interface can multiple final variable. 
  Functional Interface have @FunctionalInterface at the Class/Interface level. 
+ functional interface can be used as the assignment target for a lambda expression or a method reference.
  
- 
-There are three build-in Functional Interface are Three Type 
+  Build-In Functional Interface are Three Type 
   	1. Predicate : A Predicate functional Interface that have a single abstract method that return boolean type.
-  	2. Consumer : A Consumer Functional Interface have a single abstract method that have void return type example of such an operation is printing.
-  	3. Supplier : A Supplier Functional Interface have a single abstract method that have  return type.
+  	2. Consumer : A Consumer Functional Interface have a single abstract method that have void return type.
+  	3. Supplier : A Supplier Functional Interface have a single abstract method that have return type but No Method argument.
+  	
+  	1. Predicate :
+  	
+  	
+  	
+  	
+  	2. Consumer : Consumer Interface can be use as the assignment target for a lambda expression or a method reference.
+  				 no return type but accept the method argument.
+  	 Consumer<T t>{
+  	 	public void accept(T t);
+  	 	default  methods ...
+  	 } 
+  	
+  	3. Supplier : Supplier Interface can be use as the assignment target for the functional interface or a method reference.
+  				 no method argument but return Object.
+  	Supplier<T t>{
+  			T get();
+  		}

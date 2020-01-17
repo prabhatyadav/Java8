@@ -3,3 +3,9 @@
  Functional Interface can have any number( 0 - many ) of default and static method.
  Functional Interface can multiple final variable. 
  Functional Interface have @FunctionalInterface at the Class/Interface level. 
+ 
+ 
+There are three build-in Functional Interface are Three Type 
+  	1. Predicate : A Predicate functional Interface that have a single abstract method that return boolean type.
+  	2. Consumer : A Consumer Functional Interface have a single abstract method that have void return type example of such an operation is printing.
+  	3. Supplier : A Supplier Functional Interface have a single abstract method that have  return type.
